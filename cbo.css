@@ -1,0 +1,103 @@
+*
+{
+    width: 0 auto;
+    padding: 0;
+}
+
+
+.Page ul
+{
+   list-style: none;
+}
+
+
+.Page
+{
+    width: 1248px;
+    height: 500px;
+}
+
+.Page ul li
+{
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    line-height: 45px;
+    float: left;
+}
+
+.Page a
+{
+    background: linear-gradient(rgb(82, 153, 235));
+    width: 100%;
+    height: 50px;
+    color: white;
+    float: left;
+}
+
+
+.Page ul li ul
+{
+    display: none;
+}
+
+.Page ul li:hover ul
+{
+    display: block;
+}
+
+.Page a:hover 
+{
+    background: linear-gradient(rgba(231, 51, 51, 0.877));
+}
+
+
+
+.inner1
+{
+    background: linear-gradient(rgb(82, 153, 235));
+    color: white;
+    float: left;   
+}
+
+.inner1 ul li
+{
+    width: 200px;
+    text-align: start;
+    padding-left: 10px;
+}
+
+
+.inner2 a:hover
+{
+     background: linear-gradient(rgba(231, 51, 51, 0.877));
+}
+
+.inner2 ul
+{
+    margin-left: 190px;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.inner2 ul li
+{
+    display: none;
+}
+
+
+.inner2 ul li:hover ul
+{
+    display: block;
+}
+
+.inner2 ul li ul:hover ul
+{
+    display: block;
+}
+
+.inner2 ul li:hover a
+{
+    display: block;
+}
